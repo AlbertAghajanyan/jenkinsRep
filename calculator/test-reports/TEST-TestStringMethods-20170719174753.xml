@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="TestStringMethods-20170719174753" tests="8" time="0.000">
+	<testcase classname="TestStringMethods" name="test_div_negative" time="0.000"/>
+	<testcase classname="TestStringMethods" name="test_div_positive" time="0.000"/>
+	<testcase classname="TestStringMethods" name="test_mul_negative" time="0.000"/>
+	<testcase classname="TestStringMethods" name="test_mul_positive" time="0.000"/>
+	<testcase classname="TestStringMethods" name="test_sub_negative" time="0.000"/>
+	<testcase classname="TestStringMethods" name="test_sub_positive" time="0.000"/>
+	<testcase classname="TestStringMethods" name="test_sum_negative" time="0.000"/>
+	<testcase classname="TestStringMethods" name="test_sum_positive" time="0.000"/>
+	<system-out>
+<![CDATA[Division on 0 
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

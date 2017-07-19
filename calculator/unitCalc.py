@@ -1,6 +1,7 @@
 import calculatorUseSwitch
  
 import unittest
+import xmlrunner
 
 class TestStringMethods(unittest.TestCase):
     def test_sum_positive(self):
@@ -24,5 +25,5 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(calculatorUseSwitch.div(2,0), None)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
 
